@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thirukkural Chapter 11</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.flatui.css"/>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.mobile-1.3.1.min.js"></script>
+    <script>
+   var panel = '<div data-role="panel" id="mypanel" data-position="right" data-theme="e" data-display="push"><ul data-role="listview" data-theme="c" class="nav-search"><li data-icon="delete" data-rel="close" data-theme="e"><a href="#">திருக்குறள் செயலி</a></li><li><a href="index.html#about" rel="external"><small>செயலிப் பற்றி</small></a><li><a href="index.html#contributors" rel="external"><small>பங்களிப்பாளர்கள்</small></a></li><li><a href="index.html#whats-new" rel="external"><small>மாற்றங்கள்</small></a></li> <li><a href="index.html#todo" rel="external"><small>செயற்திட்டங்கள்</small></a></li> <li><a href="index.html#bugs" rel="external"><small>வழுக்கள்</small></a></li><li><a href="index.html#references" rel="external"><small>மேற்கோள்கள்</small></a></li><li data-theme="e">ஓம்தமிழ் செயலிகள்</li><li><img src="img/icon.png" alt="English" class="ui-li-icon ui-corner-none">OMTAMIL.TV  <small>விரைவில்)</small></li><li><img src="img/icon.png" alt="Tholkaappiyam" class="ui-li-icon ui-corner-none">தொல்காப்பியம் <small> (விரைவில்)</small></li></ul><br><center><a href="http://omtamil.tv"><img src="img/omtamil.tv-icon.png"><br><small>தனித்தமிழ் இணையத் தொலைக்காட்சி</small></a></center></div>';
+
+   $(document).on('pagebeforecreate', '[data-role=page]', function() {
+    if ($(this).find('[data-role=panel]').length === 0) {
+     $('[data-role=header]').before(panel);
+    }
+
+
+    $(document).on('pagebeforeshow', '[data-role=page]', function() {
+     $(this).trigger('pagecreate');
+    });
+   });
+
+    </script>
+    <script>
+$(document).ready(function(){
+  // Reset Font Size
+  var originalFontSize = $('html').css('font-size');
+  $(".resetFont").click(function(){
+  $('html').css('font-size', originalFontSize);
+  });
+  // Increase Font Size
+  $(".increaseFont").click(function(){
+  	var currentFontSize = $('html').css('font-size');
+ 	var currentFontSizeNum = parseFloat(currentFontSize, 10);
+    var newFontSize = currentFontSizeNum*1.2;
+	$('html').css('font-size', newFontSize);
+	return false;
+  });
+  // Decrease Font Size
+  $(".decreaseFont").click(function(){
+  	var currentFontSize = $('html').css('font-size');
+ 	var currentFontSizeNum = parseFloat(currentFontSize, 10);
+    var newFontSize = currentFontSizeNum*0.8;
+	$('html').css('font-size', newFontSize);
+	return false;
+  });
+});
+
+    </script>
+
+
+</head>
+<body>
+
+
+<!-- Beginning of chapter20 -->
+<div data-role="page" id="chapter20">
+    <div data-role="header" data-theme="e">
+
+        <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+        <h1>அதிகார விளக்கம்</h1>
+        <a data-iconpos="notext" href="#mypanel" data-role="button" data-icon="flat-menu"></a>
+    </div>
+    <div data-role="content">
+
+        <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+            <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross"
+                 data-collapsed="false">
+                <h3>20. பயனில சொல்லாமை</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;">பயனில சொல்லாமை </p>
+                </div>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+                <h3>ஒளியுரை</h3>
+                விரைவில்
+            </div>
+            <div data-role="navbar" align="center">
+                <div data-role="controlgroup" data-type="horizontal">
+                    <a href="#kural191" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள்
+                        191</a>
+                    <a href="#kural192" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள்
+                        192</a>
+                    <a href="#kural193" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள்
+                        193</a>
+                    <a href="#kural194" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள்
+                        194</a>
+                    <a href="#kural195" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள்
+                        195</a>
+                    <a href="#kural196" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள்
+                        196</a>
+                    <a href="#kural197" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள்
+                        197</a>
+                    <a href="#kural198" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள்
+                        198</a>
+                    <a href="#kural199" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள்
+                        199</a>
+                    <a href="#kural200" data-icon="star" data-iconpos="right" data-theme="c" data-role="button">குறள்
+                        200</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of chapter6-->
+
+<!-- Beginning of kural191 -->
+<div data-role="page" id="kural191">
+    <div data-role="header" data-theme="e">
+        <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+        <h1>குறள்191</h1>
+        <div class="new-sidebar"></div>
+        <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button"
+           data-icon="flat-menu"></a>
+    </div>
+    <div data-role="content">
+
+        <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+            <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross"
+                 data-collapsed="false">
+                <h3>குறள் ௪௧</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">பல்லார் முனியப்
+                                            பயனில சொல்லுவான்
+                                            <br/>எல்லாரும் எள்ளப் படும்.</p>
+                </div>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+                <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">பல்லார் முனியப்
+                                            பயனில சொல்லுவான்
+                                            <br/>எல்லாரும் எள்ளப் படும்.</p>
+                </div>
+            </div>
+
+            <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+                <h3>ஒளியுரை</h3>
+                விரைவில்
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                <h3>பதவுரை</h3>
+                <div class="ui-grid-d ui-responsive">
+                    <small>
+
+
+                         <div class="ui-block-a"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்வான்</span>-இல்லறத்தில்
+                            மேற்கொண்டு வாழ்வான்
+                        </div>
+                       <div class="ui-block-b"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">என்பான்</span>-என்று சொல்லப்படுபவன்
+                        </div>
+                        <div class="ui-block-c"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இயல்புடைய</span>-இயல்பாகவே தன்னைச்
+                            சார்ந்திருக்கும்
+                        </div>
+                        <div class="ui-block-d"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">மூவர்க்கும்</span>-பெற்றோர் மனைவி
+                            மக்கள் ஆகிய மூன்று வகையினர்க்கும்
+                        </div>
+                </div><!-- /grid-b -->
+                <div class="ui-grid-d ui-responsive">
+                    <div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">நல்</span>-நல்ல
+                    </div>
+                    <div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஆற்றின் </span>-ஒழுக்க
+                        வழிகளில்
+                    </div>
+                    <div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">நின்ற துணை</span>நிலையாக
+                        இருக்கும் துணையாவான்
+                    </div>
+                    </small>
+                </div><!-- /grid-b -->
+
+
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+                <h3>ஆசிரியருரை</h3>
+                <div data-role="collapsible-set">
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மு.வரதராசனார் உரை</h3>
+                        <small> பயனோடு பொருந்தாத பண்பு இல்லாத சொற்களைப் பலரிடத்தும் சொல்லுதல், அறத்தோடு பொருந்தாமல் நன்மையிலிருந்து நீங்கச் செய்யும்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>பரிமேலழகர் உரை</h3>
+                        <small>பயன் சாராப் பண்பு இல் சொல் பல்லார் அகத்து - பயனோடு படாத பண்புஇல் சொற்களை ஒருவன் பலரிடைச்சொல்லுமாயின், நயன் சாரா நன்மையின் நீக்கும் - அவை அவர்மாட்டு நீதியோடு படாவாய், அவனை நற்குணங்களின் நீக்கும். (பண்பு- இனிமையும், மெய்யும் முதலாய சொற்குணங்கள், 'சொல்லுமாயின்' என்பதும், 'அவர் மாட்டு' என்பதும், எச்சமாக வருவிக்கப்பட்டன.)
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மணக்குடவர் உரை</h3>
+                        <small>ஒருவன் ஒரு பயனைச் சாராத பண்பில்லாச் சொல்லைப் பலரிடத்துக் கூறுவானாயின் அவன் நடு சாராது நன்மையினீங்கும்.
+
+இது விரும்பப்படாமையுமன்றி நன்மையும் பயவாதென்றது.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>தேவநேயப் பாவாணர் உரை</h3>
+                        <small>பல்லாரகத்துப் பயன் சாராப் பண்பு இல்சொல் - ஒருவன் பலரிடத்தும் பயனொடு பொருந்தாத பண்பற்ற சொற்களைச் சொல்லுதல்; நயன் சாரா நன்மையின் நீக்கும் - நேர்மையொடு பொருந்தாது அவனை நற்குணத்தினின்று நீக்கும்.
+
+சொற் பண்புகள் ஓசையினிமை , இலக்கண வழுவின்மை, பொருள் நன்மை முதலியன. சொல்லும் என்பது சொல்லெச்சம். 'சாரா' இரண்டனுள் முன்னது ஈறுகெட்ட எதிர்மறை வினையெச்சம்; பின்னது ஈறுகெட்ட எதிர்மறைப் பெயரெச்சம்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>கலைஞர் உரை</h3>
+                        <small>பயனற்றதும்,   பண்பற்றதுமான   சொற்களைப்   பலர்முன்   பகர்தல்
+மகிழ்ச்சியைக் குலைத்து, நன்மையை மாய்க்கும்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>சாலமன் பாப்பையா உரை</h3>
+                        <small>பயனற்ற, பண்பும் இல்லாத சொற்களை ஒருவன் பலரிடமும் சொன்னால் அச் சொற்களே அவனை நீதியுடன் சேராமல் நற்குணங்களிலிருந்து நீக்கிவிடும்.
+                        </small>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+                <h3>குறளிசை</h3>
+                <iframe src="http://www.youtube.com/embed/ZrlNX7RALFs" allowfullscreen="" frameborder="0" height="auto"
+                        width="100%"></iframe>
+
+
+            </div>
+            <div data-role="navbar" align="center">
+                <div data-role="controlgroup" data-type="horizontal">
+                    <a href="#chapter20" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">20. பயனில சொல்லாமை</a>
+                    <a href="#kural192" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        192</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of kural191 -->
+
+<!-- Beginning of kural192 -->
+<div data-role="page" id="kural192">
+    <div data-role="header" data-theme="e">
+        <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+        <h1>குறள்192</h1>
+        <div class="new-sidebar"></div>
+        <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button"
+           data-icon="flat-menu"></a>
+    </div>
+    <div data-role="content">
+
+        <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+            <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross"
+                 data-collapsed="false">
+                <h3>குறள் ௪௧</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">பயனில பல்லார்முன்
+                                            சொல்லல் நயனில
+                                            <br/>நட்டார்கண் செய்தலிற் றீது.</p>
+                </div>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+                <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">பயனில பல்லார்முன்
+                                            சொல்லல் நயனில
+                                            <br/>நட்டார்கண் செய்தலிற் றீது.</p>
+                </div>
+            </div>
+
+            <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+                <h3>ஒளியுரை</h3>
+                விரைவில்
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                <h3>பதவுரை</h3>
+                <div class="ui-grid-d ui-responsive">
+                    <small>
+
+
+                        <div class="ui-block-a"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்வான்</span>-இல்லறத்தில்
+                            மேற்கொண்டு வாழ்வான்
+                        </div>
+                        <div class="ui-block-b"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">என்பான்</span>-என்று சொல்லப்படுபவன்
+                        </div>
+                        <div class="ui-block-c"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இயல்புடைய</span>-இயல்பாகவே தன்னைச்
+                            சார்ந்திருக்கும்
+                        </div>
+                        <div class="ui-block-d"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">மூவர்க்கும்</span>-பெற்றோர் மனைவி
+                            மக்கள் ஆகிய மூன்று வகையினர்க்கும்
+                        </div>
+                </div><!-- /grid-b -->
+                <div class="ui-grid-d ui-responsive">
+                    <div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">நல்</span>-நல்ல
+                    </div>
+                    <div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஆற்றின் </span>-ஒழுக்க
+                        வழிகளில்
+                    </div>
+                    <div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">நின்ற துணை</span>நிலையாக
+                        இருக்கும் துணையாவான்
+                    </div>
+                    </small>
+                </div><!-- /grid-b -->
+
+
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+                <h3>ஆசிரியருரை</h3>
+                <div data-role="collapsible-set">
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மு.வரதராசனார் உரை</h3>
+                        <small>பயனில்லாத சொற்களை நல்ல பண்பு உடையவர் சொல்லுவாரானால், அவனுடைய மேம்பாடு அவர்க்குரிய மதிப்போடு நீங்கிவிடும்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>பரிமேலழகர் உரை</h3>
+                        <small>பயன் இல நீர்மையுடையார் சொலின் - பயன் இலவாகிய சொற்களை இனிய நீர்மையுடையார் சொல்லுவாராயின், சீர்மை சிறப்பொடு நீங்கும் - அவரது விழுப்பமும் அதனால் வரும் நன்கு மதிக்கற்பாடும் உடனே நீங்கும். (நீர்மை: நீரின் தன்மை. 'சொலின்' என்பது சொல்லாமையை விளக்கிற்று.)
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மணக்குடவர் உரை</h3>
+                        <small>பயனில்லாதவற்றை நீர்மையுடையார் கூறுவாராயின் அவர்க்கு உண்டான சீர்மையும் சிறப்பும் போம்
+
+இது நீர்மையுடையா ராயினும் எல்லா நன்மையும் போமென்றது
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>தேவநேயப் பாவாணர் உரை</h3>
+                        <small>நீர்மை உடையார் பயன் இல சொலின் - இனிய தன்மையுடைய உயர்ந்தோரும் பயனற்ற சொற்களைச் சொல்வாராயின்; சீர்மை சிறப்பொடு நீங்கும் -அதனால் அவருடைய உயர்வும் அது பற்றிய மதிப்பும் நீங்கிவிடும்.
+'சொலின்' என்னும் நிலைப்பாட்டு வினையெச்சம் சொல்லாமையை உணர்த்திற்று.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>கலைஞர் உரை</h3>
+                        <small>நல்ல  பண்புடையவர்  பயனில்லாத  சொற்களைக்     கூறுவாரானால்
+அவருடைய மேம்பாடு அவர்க்குரிய மதிப்போடு நீங்கி விடும்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>சாலமன் பாப்பையா உரை</h3>
+                        <small>இனிய குணத்தவர் பயனற்ற சொற்களைச் சொன்னால், அவர் பெருமையும், புகழும் அப்பொழுதே நீங்கிவிடும்.
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+                <h3>குறளிசை</h3>
+                <iframe src="http://www.youtube.com/embed/ZrlNX7RALFs" allowfullscreen="" frameborder="0" height="auto"
+                        width="100%"></iframe>
+
+
+            </div>
+            <div data-role="navbar" align="center">
+                <div data-role="controlgroup" data-type="horizontal">
+				<a href="#kural191" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        191</a>
+
+                    <a href="#chapter20" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">20. பயனில சொல்லாமை</a>
+                    <a href="#kural193" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        193</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of kural192-->
+
+<!-- Beginning of kural193 -->
+<div data-role="page" id="kural193">
+    <div data-role="header" data-theme="e">
+        <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+        <h1>குறள்193</h1>
+        <div class="new-sidebar"></div>
+        <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button"
+           data-icon="flat-menu"></a>
+    </div>
+    <div data-role="content">
+
+        <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+            <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross"
+                 data-collapsed="false">
+                <h3>குறள் ௪௧</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">நயனிலன் என்பது
+                                            சொல்லும் பயனில
+                                            <br/>பாரித் துரைக்கும் உரை.</p>
+                </div>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+                <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">நயனிலன் என்பது
+                                            சொல்லும் பயனில
+                                            <br/>பாரித் துரைக்கும் உரை.</p>
+                </div>
+            </div>
+
+            <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+                <h3>ஒளியுரை</h3>
+                விரைவில்
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                <h3>பதவுரை</h3>
+                <div class="ui-grid-d ui-responsive">
+                    <small>
+
+
+                        <div class="ui-block-a"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்வான்</span>-இல்லறத்தில்
+                            மேற்கொண்டு வாழ்வான்
+                        </div>
+                        <div class="ui-block-b"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">என்பான்</span>-என்று சொல்லப்படுபவன்
+                        </div>
+                        <div class="ui-block-c"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இயல்புடைய</span>-இயல்பாகவே தன்னைச்
+                            சார்ந்திருக்கும்
+                        </div>
+                        <div class="ui-block-d"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">மூவர்க்கும்</span>-பெற்றோர் மனைவி
+                            மக்கள் ஆகிய மூன்று வகையினர்க்கும்
+                        </div>
+                </div><!-- /grid-b -->
+                <div class="ui-grid-d ui-responsive">
+                    <div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">நல்</span>-நல்ல
+                    </div>
+                    <div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஆற்றின் </span>-ஒழுக்க
+                        வழிகளில்
+                    </div>
+                    <div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">நின்ற துணை</span>நிலையாக
+                        இருக்கும் துணையாவான்
+                    </div>
+                    </small>
+                </div><!-- /grid-b -->
+
+
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+                <h3>ஆசிரியருரை</h3>
+                <div data-role="collapsible-set">
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மு.வரதராசனார் உரை</h3>
+                        <small>பயனில்லாத சொற்களைப் பலமுறையும் சொல்லுகின்ற ஒருவனை மனிதன் என்று சொல்லக்கூடாது, மக்களுள் பதர் என்று சொல்லவேண்டும்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>பரிமேலழகர் உரை</h3>
+                        <small>பயன்இல்சொல் பாராட்டுவானை மகன் எனல் - பயன் இல்லாத சொற்களைப் பலகாலுஞ் சொல்லுவானை மகன் என்று சொல்லற்க, மக்கட் பதடி எனல் - மக்களுள் பதர் என்று சொல்லுக. (அல் விகுதி வியங்கோள், முன் எதிர்மறையினும், பின் உடன்பாட்டினும் வந்தது. அறிவு என்னும் உள்ளீடு இன்மையின், 'மக்கள் பதடி' என்றார். இவை ஆறு பாட்டானும் பயன் இல்லாத சொற்களைச் சொல்லுதலின் குற்றம் கூறப்பட்டது.)
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மணக்குடவர் உரை</h3>
+                        <small>பயனில்லாதவற்றைப் பலர் முன்பு கூறுதல், விருப்பமில்லாதவற்றை நட்டார் மாட்டுச் செய்தலினுந் தீதே,
+
+இது பயனில சொல்லல் இம்மை மறுமை யிரண்டின் கண்ணுந் தீமை பயக்கு மென்றது.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>தேவநேயப் பாவாணர் உரை</h3>
+                        <small>பயன் இல் சொல் பாராட்டுவானை மகன் எனல் - பயனற்ற சொற்களைப் பலகாலும் விரும்பிச் சொல்பவனை மகன் (மாந்தன்) என்று சொல்லற்க; மக்கட் பதடி எனல் - மக்களுட் பதர் என்று சொல்லுக.
+
+அல் என்னும் வியங்கோளீறு முன்பு எதிர்மறையிலும் பின்பு உடன்பாட்டிலும் வந்தது. பதர் உள்ளீடல்லாத கூல மணி. மக்கட்பதர் அறிவாகிய உள்ளீடற்றவன் அல்லது அற்றவள்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>கலைஞர் உரை</h3>
+                        <small>பயனற்றவைகளைச்   சொல்லிப்  பயன்பெற  நினைப்பவனை, மனிதன்
+என்பதைவிட அவன் ஒரு பதர் என்பதே பொருத்தமானதாகும்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>சாலமன் பாப்பையா உரை</h3>
+                        <small>பயனற்ற சொற்களையே பலகாலமும் சொல்பவனை மனிதன் என வேண்டா; மனிதருள் பதர் என்றே சொல்லுங்கள்.
+                        </small>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+                <h3>குறளிசை</h3>
+                <iframe src="http://www.youtube.com/embed/ZrlNX7RALFs" allowfullscreen="" frameborder="0" height="auto"
+                        width="100%"></iframe>
+
+
+            </div>
+            <div data-role="navbar" align="center">
+                <div data-role="controlgroup" data-type="horizontal">
+				<a href="#kural192" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        192</a>
+
+                    <a href="#chapter20" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">20. பயனில சொல்லாமை</a>
+                    <a href="#kural194" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        194</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of kural193-->
+
+
+<!-- Beginning of kural194 -->
+<div data-role="page" id="kural194">
+    <div data-role="header" data-theme="e">
+        <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+        <h1>குறள்194</h1>
+        <div class="new-sidebar"></div>
+        <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button"
+           data-icon="flat-menu"></a>
+    </div>
+    <div data-role="content">
+
+        <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+            <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross"
+                 data-collapsed="false">
+                <h3>குறள் ௪௧</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">நயன்சாரா நன்மையின்
+                                            நீக்கும் பயன்சாராப்
+                                            <br/>பண்பில்சொல் பல்லா ரகத்து.</p>
+                </div>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+                <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">நயன்சாரா நன்மையின்
+                                            நீக்கும் பயன்சாராப்
+                                            <br/>பண்பில்சொல் பல்லா ரகத்து.</p>
+                </div>
+            </div>
+
+            <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+                <h3>ஒளியுரை</h3>
+                விரைவில்
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                <h3>பதவுரை</h3>
+                <div class="ui-grid-d ui-responsive">
+                    <small>
+
+
+                        <div class="ui-block-a"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்வான்</span>-இல்லறத்தில்
+                            மேற்கொண்டு வாழ்வான்
+                        </div>
+                        <div class="ui-block-b"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">என்பான்</span>-என்று சொல்லப்படுபவன்
+                        </div>
+                        <div class="ui-block-c"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இயல்புடைய</span>-இயல்பாகவே தன்னைச்
+                            சார்ந்திருக்கும்
+                        </div>
+                        <div class="ui-block-d"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">மூவர்க்கும்</span>-பெற்றோர் மனைவி
+                            மக்கள் ஆகிய மூன்று வகையினர்க்கும்
+                        </div>
+                </div><!-- /grid-b -->
+                <div class="ui-grid-d ui-responsive">
+                    <div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">நல்</span>-நல்ல
+                    </div>
+                    <div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஆற்றின் </span>-ஒழுக்க
+                        வழிகளில்
+                    </div>
+                    <div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">நின்ற துணை</span>நிலையாக
+                        இருக்கும் துணையாவான்
+                    </div>
+                    </small>
+                </div><!-- /grid-b -->
+
+
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+                <h3>ஆசிரியருரை</h3>
+                <div data-role="collapsible-set">
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மு.வரதராசனார் உரை</h3>
+                        <small>அறம் இல்லாதவற்றைச் சொன்னாலும் சொல்லலாம், சான்றோர் பயன் இல்லாத சொற்களைச் சொல்லாமல் இருத்தல் நன்மையாகும்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>பரிமேலழகர் உரை</h3>
+                        <small>நயன் இல சான்றோர் சொல்லினும் சொல்லுக - சான்றோர் நீதியோடு படாத சொற்களைச் சொன்னாராயினும் அஃது அமையும், பயன் இல சொல்லாமை நன்று - அவர் பயன் இலவற்றைச் சொல்லாமை பெறின், அது நன்று ('சொல்லினும்' எனவே, சொல்லாமை பெறப்பட்டது. நயன் இலவற்றினும் பயன் இல தீய என்பதாம்.)
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மணக்குடவர் உரை</h3>
+                        <small>சான்றோர் நயனில்லாதவற்றைச் சொல்லினுஞ் சொல்லுக, அமையும்; பயனில்லாதவற்றைச் சொல்லாமை நன்று.
+
+இது சான்றோர்க்கு ஆகாதென்றது.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>தேவநேயப் பாவாணர் உரை</h3>
+                        <small>சான்றோர் நயன் இல சொல்லினும் சொல்லுக - அறிவுடையோர் நேர்மையில்லாத சொற்களை என்றேனும் தப்பித் தவறிச் சொல்லினும் சொல்லுக; பயன் இல சொல்லாமை நன்று.. ஆயின் எக்கரணியத்தையிட்டும் பயனில்லாத சொற்களைச் சொல்லாதிருத்தலே அவர்க்கு நன்றாம்.
+
+இது நேர்மையில்லாச் சொல்லை நெருக்கடி நிலைமையிற் சொல்ல இசைவளித்ததன்று; நேர்மையில்லாச் சொல்லினும் பயனில்லாச் சொல் தீயதென்பதை உணர்த்துவதேயாம்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>கலைஞர் உரை</h3>
+                        <small>பண்பாளர்கள், இனிமையல்லாத சொற்களைக்கூடச் சொல்லி   விடலாம்;
+ஆனால் பயனில்லாத சொற்களைச் சொல்லாமல் இருப்பதே நல்லது.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>சாலமன் பாப்பையா உரை</h3>
+                        <small>நீதியற்ற சொற்களைச் சொன்னாலும் பயனற்ற சொற்களைச் சொல்லாமல் இருப்பது சான்றோர்க்கு நல்லது.
+                        </small>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+                <h3>குறளிசை</h3>
+                <iframe src="http://www.youtube.com/embed/ZrlNX7RALFs" allowfullscreen="" frameborder="0" height="auto"
+                        width="100%"></iframe>
+
+
+            </div>
+            <div data-role="navbar" align="center">
+                <div data-role="controlgroup" data-type="horizontal">
+				<a href="#kural193" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        193</a>
+
+                    <a href="#chapter20" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">20. பயனில சொல்லாமை</a>
+                    <a href="#kural195" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        195</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of kural194-->
+
+
+<!-- Beginning of kural195 -->
+<div data-role="page" id="kural195">
+    <div data-role="header" data-theme="e">
+        <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+        <h1>குறள்195</h1>
+        <div class="new-sidebar"></div>
+        <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button"
+           data-icon="flat-menu"></a>
+    </div>
+    <div data-role="content">
+
+        <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+            <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross"
+                 data-collapsed="false">
+                <h3>குறள் ௪௧</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">சீர்மை சிறப்பொடு
+                                            நீங்கும் பயனில
+                                            <br/>நீர்மை யுடையார் சொலின்.</p>
+                </div>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+                <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">சீர்மை சிறப்பொடு
+                                            நீங்கும் பயனில
+                                            <br/>நீர்மை யுடையார் சொலின்.</p>
+                </div>
+            </div>
+
+            <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+                <h3>ஒளியுரை</h3>
+                விரைவில்
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                <h3>பதவுரை</h3>
+                <div class="ui-grid-d ui-responsive">
+                    <small>
+
+
+                        <div class="ui-block-a"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்வான்</span>-இல்லறத்தில்
+                            மேற்கொண்டு வாழ்வான்
+                        </div>
+                        <div class="ui-block-b"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">என்பான்</span>-என்று சொல்லப்படுபவன்
+                        </div>
+                        <div class="ui-block-c"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இயல்புடைய</span>-இயல்பாகவே தன்னைச்
+                            சார்ந்திருக்கும்
+                        </div>
+                        <div class="ui-block-d"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">மூவர்க்கும்</span>-பெற்றோர் மனைவி
+                            மக்கள் ஆகிய மூன்று வகையினர்க்கும்
+                        </div>
+                </div><!-- /grid-b -->
+                <div class="ui-grid-d ui-responsive">
+                    <div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">நல்</span>-நல்ல
+                    </div>
+                    <div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஆற்றின் </span>-ஒழுக்க
+                        வழிகளில்
+                    </div>
+                    <div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">நின்ற துணை</span>நிலையாக
+                        இருக்கும் துணையாவான்
+                    </div>
+                    </small>
+                </div><!-- /grid-b -->
+
+
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+                <h3>ஆசிரியருரை</h3>
+                <div data-role="collapsible-set">
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மு.வரதராசனார் உரை</h3>
+                        <small>அருமையான பயன்களை ஆராயவல்ல அறிவை உடைய அறிஞர், மிக்க பயன் இல்லாத சொற்களை ஒருபோதும் சொல்லமாட்டார்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>பரிமேலழகர் உரை</h3>
+                        <small>அரும்பயன் ஆயும் அறிவினார் - அறிதற்கு அரிய பயன்களை ஆராயவல்ல அறிவினையுடையார், பெரும்பயன் இல்லாத சொல் சொல்லார் - மிக்க பயனுடைய அல்லாத சொற்களைச் சொல்லார். (அறிதற்கு அரிய பயன்களாவன, வீடு பேறும், மேற்கதிச் செலவும் முதலாயின. 'பெரும்பயன் இல்லாத' எனவே பயன் சிறிது உடையனவும் ஒழிக்கப்பட்டன.)
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மணக்குடவர் உரை</h3>
+                        <small>அரிய பொருளை யாராயும் அறிவினையுடையார் சொல்லார்; பெரிய பயனில்லாத சொற்களை,
+
+இது மேற்கூறிய குற்றமெல்லாம் பயத்தலின் இதனை யறிவுடையார் கூறாரென்றது.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>தேவநேயப் பாவாணர் உரை</h3>
+                        <small>அரும்பயன் ஆயும் அறிவினார் - அறிதற்கரிய பயன்களை ஆராயவல்ல அறிவுடையார்; பெரும்பயன் இல்லாத சொல் சொல்லார் - மிகுந்த பயனில்லாத சொற்களை ஒருபோதும் சொல்லார்.
+
+அறிதற்கரிய பயன்களாவன நாள்கோளியக்கமும் மெய்ப் பொருளியலும் வீடுபேறும் முதலியன. பெரும்பயனில்லாத சொல்லை சொல்லாரெனவே , சிறு பயன் தரும் சொல்லும் அவர் வாயினின்று வராதென்பது பெறப்படும். இதனால் அரும்பயனாராயும் அறிவினார்க்குச் சிறுபயன் சொல்லும் அறவே விலக்கப்பட்டது.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>கலைஞர் உரை</h3>
+                        <small>>அரும்பயன்களை   ஆராய்ந்து  அறியக்கூடிய   ஆற்றல் படைத்தவர்,
+பெரும்பயன் விளைவிக்காத எந்தச் சொல்லையும் பயன்படுத்த மாட்டார்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>சாலமன் பாப்பையா உரை</h3>
+                        <small>அரிய பயன்களை ஆராயும் அறிவுடையோர், பெரும்பயன் இல்லாத சொற்களைச் சொல்வார்.
+                        </small>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+                <h3>குறளிசை</h3>
+                <iframe src="http://www.youtube.com/embed/ZrlNX7RALFs" allowfullscreen="" frameborder="0" height="auto"
+                        width="100%"></iframe>
+
+
+            </div>
+            <div data-role="navbar" align="center">
+                <div data-role="controlgroup" data-type="horizontal">
+				<a href="#kural194" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        194</a>
+
+                    <a href="#chapter20" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">20. பயனில சொல்லாமை</a>
+                    <a href="#kural196" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        196</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of kural195-->
+
+<!-- Beginning of kural196 -->
+<div data-role="page" id="kural196">
+    <div data-role="header" data-theme="e">
+        <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+        <h1>குறள்196</h1>
+        <div class="new-sidebar"></div>
+        <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button"
+           data-icon="flat-menu"></a>
+    </div>
+    <div data-role="content">
+
+        <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+            <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross"
+                 data-collapsed="false">
+                <h3>குறள் ௪௧</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">>பயனில் சொல் பாராட்டு
+                                            வானை மகன்எனல்
+                                            <br/>மக்கட் பதடி யெனல்.</p>
+                </div>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+                <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">>பயனில் சொல் பாராட்டு
+                                            வானை மகன்எனல்
+                                            <br/>மக்கட் பதடி யெனல்.</p>
+                </div>
+            </div>
+
+            <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+                <h3>ஒளியுரை</h3>
+                விரைவில்
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                <h3>பதவுரை</h3>
+                <div class="ui-grid-d ui-responsive">
+                    <small>
+
+
+                        <div class="ui-block-a"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்வான்</span>-இல்லறத்தில்
+                            மேற்கொண்டு வாழ்வான்
+                        </div>
+                        <div class="ui-block-b"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">என்பான்</span>-என்று சொல்லப்படுபவன்
+                        </div>
+                        <div class="ui-block-c"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இயல்புடைய</span>-இயல்பாகவே தன்னைச்
+                            சார்ந்திருக்கும்
+                        </div>
+                        <div class="ui-block-d"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">மூவர்க்கும்</span>-பெற்றோர் மனைவி
+                            மக்கள் ஆகிய மூன்று வகையினர்க்கும்
+                        </div>
+                </div><!-- /grid-b -->
+                <div class="ui-grid-d ui-responsive">
+                    <div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">நல்</span>-நல்ல
+                    </div>
+                    <div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஆற்றின் </span>-ஒழுக்க
+                        வழிகளில்
+                    </div>
+                    <div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">நின்ற துணை</span>நிலையாக
+                        இருக்கும் துணையாவான்
+                    </div>
+                    </small>
+                </div><!-- /grid-b -->
+
+
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+                <h3>ஆசிரியருரை</h3>
+                <div data-role="collapsible-set">
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மு.வரதராசனார் உரை</h3>
+                        <small>மயக்கத்திலிருந்து தெளிந்த மாசற்ற அறிவை உடையவர், பயன் நீங்கிய சொற்களை ஒருகால் மறந்தும் சொல்லமாட்டார்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>பரிமேலழகர் உரை</h3>
+                        <small>பொருள் தீர்ந்த பொச்சாந்தும் சொல்லார் - பயனின் நீங்கிய சொற்களை மறந்தும் சொல்லார், 'மருள் தீர்ந்த' மாசுஅறு காட்சியவர் - மயக்கத்தின் நீங்கிய தூய அறிவினையுடையார். "('தூய அறிவு' மெய்யறிவு. 'மருள் தீர்ந்த' என்னும் பெயரெச்சம் காட்சியவர் என்னும் குறிப்புப்பெயர் கொண்டது. இவை மூன்று பாட்டானும் பயன்இல சொல்லாமையின் குணம் கூறப்பட்ட.து)
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மணக்குடவர் உரை</h3>
+                        <small>பொருளில்லாத சொல்லை மறந்துஞ் சொல்லார்; மயக்கந் தீர்ந்த குற்றமற்ற தெளிவினை யுடையார்,
+
+இது தெளிவுடையார் கூறாரென்றது.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>தேவநேயப் பாவாணர் உரை</h3>
+                        <small>மருள் தீரந்த மாசு அறு காட்சியவர் - மயக்கத்தினின்று நீங்கிய குற்ற மற்ற அறிவுடையார்; பொருள் தீர்ந்த பொச்சாந்தும் சொல்லார் -பயனில்லாத சொற்களை மறந்துஞ் சொல்லார்.
+
+மயக்கம் ஐயமுந் திரிபும். குற்ற மற்ற அறிவு மெய்யறிவு அல்லது தூய அறிவு.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>கலைஞர் உரை</h3>
+                        <small>>மயக்கம் சிறிதுமில்லாத மாசற்ற அறிவுடையவர் மறந்தும்கூடப்  பயனற்ற
+சொற்களைச் சொல்ல மாட்டார்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>சாலமன் பாப்பையா உரை</h3>
+                        <small>மயக்கமற்ற தூய அறிவினை உடையவர், பொருளற்ற சொற்களை மறந்தும் சொல்லார்.</td>
+                        </small>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+                <h3>குறளிசை</h3>
+                <iframe src="http://www.youtube.com/embed/ZrlNX7RALFs" allowfullscreen="" frameborder="0" height="auto"
+                        width="100%"></iframe>
+
+
+            </div>
+            <div data-role="navbar" align="center">
+                <div data-role="controlgroup" data-type="horizontal">
+				<a href="#kural195" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        195</a>
+
+                    <a href="#chapter20" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">20. பயனில சொல்லாமை</a>
+                    <a href="#kural197" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        196</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of kural196-->
+
+<!-- Beginning of kural197 -->
+<div data-role="page" id="kural197">
+    <div data-role="header" data-theme="e">
+        <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+        <h1>குறள்197</h1>
+        <div class="new-sidebar"></div>
+        <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button"
+           data-icon="flat-menu"></a>
+    </div>
+    <div data-role="content">
+
+        <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+            <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross"
+                 data-collapsed="false">
+                <h3>குறள் ௪௧</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">நயனில சொல்லினுஞ்
+                                            சொல்லுக சான்றோர்
+                                            <br/>பயனில சொல்லாமை நன்று.</p>
+                </div>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+                <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">நயனில சொல்லினுஞ்
+                                            சொல்லுக சான்றோர்
+                                            <br/>பயனில சொல்லாமை நன்று.</p>
+                </div>
+            </div>
+
+            <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+                <h3>ஒளியுரை</h3>
+                விரைவில்
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                <h3>பதவுரை</h3>
+                <div class="ui-grid-d ui-responsive">
+                    <small>
+
+
+                        <div class="ui-block-a"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்வான்</span>-இல்லறத்தில்
+                            மேற்கொண்டு வாழ்வான்
+                        </div>
+                        <div class="ui-block-b"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">என்பான்</span>-என்று சொல்லப்படுபவன்
+                        </div>
+                        <div class="ui-block-c"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இயல்புடைய</span>-இயல்பாகவே தன்னைச்
+                            சார்ந்திருக்கும்
+                        </div>
+                        <div class="ui-block-d"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">மூவர்க்கும்</span>-பெற்றோர் மனைவி
+                            மக்கள் ஆகிய மூன்று வகையினர்க்கும்
+                        </div>
+                </div><!-- /grid-b -->
+                <div class="ui-grid-d ui-responsive">
+                    <div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">நல்</span>-நல்ல
+                    </div>
+                    <div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஆற்றின் </span>-ஒழுக்க
+                        வழிகளில்
+                    </div>
+                    <div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">நின்ற துணை</span>நிலையாக
+                        இருக்கும் துணையாவான்
+                    </div>
+                    </small>
+                </div><!-- /grid-b -->
+
+
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+                <h3>ஆசிரியருரை</h3>
+                <div data-role="collapsible-set">
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மு.வரதராசனார் உரை</h3>
+                        <small>தீயசெயல்கள் தீமையை விளைவிக்கும் தன்மை உடையனவாக இருத்தலால், அத் தீயச் செயல்கள் தீயைவிடக் கொடியனவாகக் கருதி அஞ்சப்படும்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>பரிமேலழகர் உரை</h3>
+                        <small>தீயவை தீய பயத்தலான் - தனக்கு இன்பம் பயத்தலைக் கருதிச் செய்யும் தீவினைகள், பின் அஃது ஒழித்துத் துன்பமே பயத்தலான், தீயவை தீயினும் அஞ்சப்படும்- அத்தன்மையாகிய தீவினைகள் ஒருவனால் தீயினும் அஞ்சப்படும். (பிறிதொரு காலத்தும், பிறிதொரு தேயத்தும், பிறிதோர் உடம்பினும் சென்று சுடுதல் தீக்கு இன்மையின் , தீயினும் அஞ்சப்படுவதாயிற்று.)
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மணக்குடவர் உரை</h3>
+                        <small>தீத்தொழிலானவை தமக்குத் தீமை பயத்தலானே, அத்தொழில்கள் தொடிற் சுடுமென்று தீக்கு அஞ்சுதலினும் மிக அஞ்சப்படும்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>தேவநேயப் பாவாணர் உரை</h3>
+                        <small>>தீய தீயவே பயத்தலால்-ஒருவன் தனக்கின்பங் கருதிச் செய்யும் தீவினைகள் இம்மையிலும் மறுமையிலும் துன்பங்களையே தருதலால்; தீயவை தீயினும் அஞ்சப்படும்-அத்தீவினைகள் தீயினும் மிகுதியாக அஞ்சப்படத்தக்கனவாம்.
+
+தீயானது தொட்டவரைச் சுடினும் எரிப்பினும், சமைத்தலும் குளிர் போக்கலும் நோய் நீக்கலும் கொடுவிலங்கு விரட்டலுமாகிய நன்மைகளையுஞ் செய்தலாலும்; தீவினையானது செய்த காலத்தில் மட்டுமன்றிப் பின்பு வேறொரு காலத்திலும் வேறொரிடத்திலும் வேறோ ருடம்பிலுஞ் சென்று சுடுதலாலும், எவ்வகை நன்மையுஞ் செய்யாமையாலும்; 'தீயவை தீயினும் அஞ்சப்படும்' என்றார். தீவினை நன்மை செய்யாமை பற்றியே 'தீயவே' என்னும் பாடம் இங்குக் கொள்ளப்பட்டது.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>கலைஞர் உரை</h3>
+                        <small>தீய  செயல்களால்  தீமையே  விளையும்  என்பதால் அச்செயல்களைத்
+தீயை விடக் கொடுமையானவையாகக் கருதி அவற்றைச் செய்திட  அஞ்சிட
+வேண்டும்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>சாலமன் பாப்பையா உரை</h3>
+                        <small>நமக்கு நன்மை என்று பிறருக்குச் செய்யும் தீமைகள், நமக்குத் தீமையே தருவதால், தீமைகளைத் தீயினும் கொடியனவாக எண்ணிச் செய்ய அஞ்ச வேண்டும்.</td>
+                        </small>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+                <h3>குறளிசை</h3>
+                <iframe src="http://www.youtube.com/embed/ZrlNX7RALFs" allowfullscreen="" frameborder="0" height="auto"
+                        width="100%"></iframe>
+
+
+            </div>
+            <div data-role="navbar" align="center">
+                <div data-role="controlgroup" data-type="horizontal">
+				<a href="#kural196" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        196</a>
+
+                    <a href="#chapter20" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">20. பயனில சொல்லாமை</a>
+                    <a href="#kural198" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        198</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of kural197-->
+
+<!-- Beginning of kural198 -->
+<div data-role="page" id="kural198">
+    <div data-role="header" data-theme="e">
+        <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+        <h1>குறள்198</h1>
+        <div class="new-sidebar"></div>
+        <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button"
+           data-icon="flat-menu"></a>
+    </div>
+    <div data-role="content">
+
+        <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+            <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross"
+                 data-collapsed="false">
+                <h3>குறள் ௪௧</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">அரும்பயன் ஆயும்
+                                            அறிவினார் சொல்லார்
+                                            <br/>பெரும்பயன் இல்லாத சொல்.</p>
+                </div>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+                <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">அரும்பயன் ஆயும்
+                                            அறிவினார் சொல்லார்
+                                            <br/>பெரும்பயன் இல்லாத சொல்.</p>
+                </div>
+            </div>
+
+            <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+                <h3>ஒளியுரை</h3>
+                விரைவில்
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                <h3>பதவுரை</h3>
+                <div class="ui-grid-d ui-responsive">
+                    <small>
+
+
+                        <div class="ui-block-a"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்வான்</span>-இல்லறத்தில்
+                            மேற்கொண்டு வாழ்வான்
+                        </div>
+                        <div class="ui-block-b"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">என்பான்</span>-என்று சொல்லப்படுபவன்
+                        </div>
+                        <div class="ui-block-c"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இயல்புடைய</span>-இயல்பாகவே தன்னைச்
+                            சார்ந்திருக்கும்
+                        </div>
+                        <div class="ui-block-d"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">மூவர்க்கும்</span>-பெற்றோர் மனைவி
+                            மக்கள் ஆகிய மூன்று வகையினர்க்கும்
+                        </div>
+                </div><!-- /grid-b -->
+                <div class="ui-grid-d ui-responsive">
+                    <div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">நல்</span>-நல்ல
+                    </div>
+                    <div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஆற்றின் </span>-ஒழுக்க
+                        வழிகளில்
+                    </div>
+                    <div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">நின்ற துணை</span>நிலையாக
+                        இருக்கும் துணையாவான்
+                    </div>
+                    </small>
+                </div><!-- /grid-b -->
+
+
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+                <h3>ஆசிரியருரை</h3>
+                <div data-role="collapsible-set">
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மு.வரதராசனார் உரை</h3>
+                        <small>தம்மை வருத்துவோர்க்கும் தீய செயல்களைச் செய்யாமலிருத்தலை, அறிவு எல்லாவற்றிலும் தலையான அறிவு என்று கூறுவர்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>பரிமேலழகர் உரை</h3>
+                        <small>அறிவினுள் எல்லாம் தலை என்ப - தமக்கு உறுதி நாடும் அறிவுரைகள் எல்லாவற்றுள்ளும் தலையாய அறிவு என்று சொல்லுவார் நல்லோர், செறுவார்க்கும் தீய செய்யா விடல் - தம்மைச் செறுவார் மாட்டும் தீவினைகளைச் செய்யாது விடுதலை. (விடுதற்குக் காரணம் ஆகிய அறிவை 'விடுதல்' என்றும் , செய்யத் தக்குழியுஞ் 'செய்யாது' ஒழியவே தமக்குத் துன்பம் வாராது என உய்த்துணர்தலின், அதனை 'அறிவினுள் எல்லாம் தலை' என்றும் கூறினார். செய்யாது என்பது கடைக்குறைந்து நின்றது. இவை மூன்று பாட்டானும் தீவினைக்கு அஞ்சவேண்டும் என்பது கூறப்பட்டது.)
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மணக்குடவர் உரை</h3>
+                        <small>எல்லா அறங்களையும் அறியும் அறிவு எல்லாவற்றுள்ளும் தலையான அறிவென்று சொல்லுவர் நல்லோர்; தமக்குத் தீமை செய்வார்க்குந் தாம் தீமை செய்யாதொழிதலை.
+
+இஃது எல்லாவற்றுள்ளுந் தலைமை யுடைத்தென்றது.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>தேவநேயப் பாவாணர் உரை</h3>
+                        <small>செறுவார்க்கும் தீய செய்யா விடல்-தம்மைப் பகைப்பவர்க்குந் தீமையானவற்றைச் செய்யாது விடுதலை; அறிவினுள் எல்லாம் தலை என்ப-அறிவுச் செயல்களெல்லாவற்றுள்ளும் தலையாயதென்பர் அறிவுடையோர்.
+
+நன்மைக்கு நன்மையும் தீமைக்குத் தீமையுஞ் செய்வதே மக்களியல்பாதலால், தீமைக்கு நன்மை செய்வதை அல்லது தீமை செய்யாமையைச் சிறந்த அறிவுச் செயலென்றார். உம்மை இழிவு சிறப்பு. 'செய்யா' ஈறுகெட்ட எதிர்மறை வினையெச்சம். அறிவினால் ஒழுக்கம் பயனாதலின் ஒழுக்கம் அறிவெனப்பட்டது.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>கலைஞர் உரை</h3>
+                        <small>தீமை செய்தவர்க்கு அதையே திருப்பிச்  செய்யாமலிருத்தலை,  எல்லா
+அறிவிலும் முதன்மையான அறிவு என்று போற்றுவர்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>சாலமன் பாப்பையா உரை</h3>
+                        <small>தனக்குத் தீமை செய்பவர்க்கும் தீமை செய்யாது இருப்பதே, அறிவில் எல்லாம் முதன்மை அறிவு என்று கூறுவர்.</td>
+                        </small>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+                <h3>குறளிசை</h3>
+                <iframe src="http://www.youtube.com/embed/ZrlNX7RALFs" allowfullscreen="" frameborder="0" height="auto"
+                        width="100%"></iframe>
+
+
+            </div>
+            <div data-role="navbar" align="center">
+                <div data-role="controlgroup" data-type="horizontal">
+				<a href="#kural197" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        197</a>
+
+                    <a href="#chapter20" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">20. பயனில சொல்லாமை</a>
+                    <a href="#kural199" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        199</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of kural198-->
+
+<!-- Beginning of kural199 -->
+<div data-role="page" id="kural199">
+    <div data-role="header" data-theme="e">
+        <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+        <h1>குறள்199</h1>
+        <div class="new-sidebar"></div>
+        <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button"
+           data-icon="flat-menu"></a>
+    </div>
+    <div data-role="content">
+
+        <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+            <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross"
+                 data-collapsed="false">
+                <h3>குறள் ௪௧</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">பொருள்தீர்ந்த
+                                            பொச்சாந்துஞ் சொல்லார் மருள்தீர்ந்த
+                                            <br/>மாசறு காட்சி யவர்.</p>
+                </div>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+                <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">பொருள்தீர்ந்த
+                                            பொச்சாந்துஞ் சொல்லார் மருள்தீர்ந்த
+                                            <br/>மாசறு காட்சி யவர்.</p>
+                </div>
+            </div>
+
+            <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+                <h3>ஒளியுரை</h3>
+                விரைவில்
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                <h3>பதவுரை</h3>
+                <div class="ui-grid-d ui-responsive">
+                    <small>
+
+
+                        <div class="ui-block-a"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்வான்</span>-இல்லறத்தில்
+                            மேற்கொண்டு வாழ்வான்
+                        </div>
+                        <div class="ui-block-b"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">என்பான்</span>-என்று சொல்லப்படுபவன்
+                        </div>
+                        <div class="ui-block-c"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இயல்புடைய</span>-இயல்பாகவே தன்னைச்
+                            சார்ந்திருக்கும்
+                        </div>
+                        <div class="ui-block-d"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">மூவர்க்கும்</span>-பெற்றோர் மனைவி
+                            மக்கள் ஆகிய மூன்று வகையினர்க்கும்
+                        </div>
+                </div><!-- /grid-b -->
+                <div class="ui-grid-d ui-responsive">
+                    <div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">நல்</span>-நல்ல
+                    </div>
+                    <div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஆற்றின் </span>-ஒழுக்க
+                        வழிகளில்
+                    </div>
+                    <div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">நின்ற துணை</span>நிலையாக
+                        இருக்கும் துணையாவான்
+                    </div>
+                    </small>
+                </div><!-- /grid-b -->
+
+
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+                <h3>ஆசிரியருரை</h3>
+                <div data-role="collapsible-set">
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மு.வரதராசனார் உரை</h3>
+                        <small>பிறனுக்கு கேட்டைத் தரும் தீய செயல்களை ஒருவன் மறந்தும் கூட எண்ணக்கூடாது, எண்ணினால் எண்ணியவனுக்கு கேடு விளையுமாறு அறம் எண்ணும்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>பரிமேலழகர் உரை</h3>
+                        <small>பிறன் கேடு மறந்தும் சூழற்க - ஒருவன் பிறனுக்குக் கேடு பயக்கும் வினையை மறந்தும் எண்ணாதொழிக, சூழின் சூழ்ந்தவன் கேடு அறம் சூழும் - எண்ணுவானாயின், தனக்குக் கேடு பயக்கும் வினையை அறக்கடவுள் எண்ணும். ('கேடு' என்பன ஆகுபெயர். சூழ்கின்ற பொழுதேதானும் உடன் சூழ்தலின், இவன் பிற்படினும் அறக்கடவுள் முற்படும் என்பது பெறப்பட்டது. அறக்கடவுள் எண்ணுதலாவது, அவன் கெடத் தான் நீங்க நினைத்தல். தீவினை எண்ணலும் ஆகாது என்பதாம்.)
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மணக்குடவர் உரை</h3>
+                        <small>பிறனுக்குக் கேட்டை மறந்துஞ் சூழாதொழிக: சூழ்வனாயின் அவனாற் சூழப்பட்டவன் அதற்கு மாறாகக் கேடு சூழ்வதன்முன்னே சூழ்ந்தவனுக்குக் கேட்டைத் தீமை செய்தார்க்குத் தீமை பயக்கும் அறந்தானே சூழும்.
+
+இது தீமை நினையினுங் கேடு தருமென்றது.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>தேவநேயப் பாவாணர் உரை</h3>
+                        <small>பிறன்கேடு மறந்தும் சூழற்க-ஒருவன் பிறனுக்குக் கேடு செய்யும் வினையை மறந்தும் எண்ணாதிருக்க; சூழின் சூழ்ந்தவன் கேடு அறம் சூழும்-எவனேனும் எண்ணின், எண்ணினவனுக்குக் கேட்டை அறத்தெய்வமே செய்ய எண்ணும்.
+
+தப்பாது பழிக்குப் பழிவாங்க வலிமை மிக்க அறத் தெய்வம் உடனிருத்தலால், ஒருவனுக்குத் தீங்கை எண்ணுதலும் ஆகாது என்பதாம்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>கலைஞர் உரை</h3>
+                        <small>மறந்தும்கூட  மற்றவர்க்குக்  கேடு  செய்ய நினைக்கக் கூடாது; அப்படி
+நினைத்தால்  அவனுக்குக் கேடு உண்டாக்க அவனை அறம் முற்றுகையிட்டு
+விடும்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>சாலமன் பாப்பையா உரை</h3>
+                        <small>மறந்தும் பிறர்க்குத் தீமை செய்ய எண்ணாதே; எண்ணினால் எண்ணியவனுக்கு அறக்கடவுளே தீமையைத் தர எண்ணும்.</td>
+                        </small>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+                <h3>குறளிசை</h3>
+                <iframe src="http://www.youtube.com/embed/ZrlNX7RALFs" allowfullscreen="" frameborder="0" height="auto"
+                        width="100%"></iframe>
+
+
+            </div>
+            <div data-role="navbar" align="center">
+                <div data-role="controlgroup" data-type="horizontal">
+				<a href="#kural198" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        198</a>
+
+                    <a href="#chapter20" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">20. பயனில சொல்லாமை</a>
+                    <a href="#kural200" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        200</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of kural199-->
+
+
+<!-- Beginning of kural190 -->
+<div data-role="page" id="kural200">
+    <div data-role="header" data-theme="e">
+        <a href="index.html" rel="external" data-role="back" data-icon="back" title="Back">முகப்பு</a>
+        <h1>குறள்200</h1>
+        <div class="new-sidebar"></div>
+        <a data-iconpos="notext" href="#mypanel" rel="external" data-prefetch="true" data-role="button"
+           data-icon="flat-menu"></a>
+    </div>
+    <div data-role="content">
+
+        <div data-role="collapsible-set" data-theme="a" data-content-theme="c">
+            <div data-role="collapsible" data-collapsed-icon="flat-bubble" data-expanded-icon="flat-cross"
+                 data-collapsed="false">
+                <h3>குறள் ௪௧</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">சொல்லுக சொல்லிற்
+                                            பயனுடைய சொல்லற்க
+                                            <br/>சொல்லிற் பயனிலாச் சொல்.</p>
+                </div>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-cmd" data-expanded-icon="flat-cross">
+                <h3>சீர் பிரிக்கப்பட்ட குறள்</h3>
+                <div id="imgcontainer">
+                    <p style="color:red;font-size:12px;">சொல்லுக சொல்லிற்
+                                            பயனுடைய சொல்லற்க
+                                            <br/>சொல்லிற் பயனிலாச் சொல்.</p>
+                </div>
+            </div>
+
+            <div data-role="collapsible" data-collapsed-icon="flat-eye" data-expanded-icon="flat-cross">
+                <h3>ஒளியுரை</h3>
+                விரைவில்
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+                <h3>பதவுரை</h3>
+                <div class="ui-grid-d ui-responsive">
+                    <small>
+
+
+                        <div class="ui-block-a"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இல்வாழ்வான்</span>-இல்லறத்தில்
+                            மேற்கொண்டு வாழ்வான்
+                        </div>
+                        <div class="ui-block-b"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">என்பான்</span>-என்று சொல்லப்படுபவன்
+                        </div>
+                        <div class="ui-block-c"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">இயல்புடைய</span>-இயல்பாகவே தன்னைச்
+                            சார்ந்திருக்கும்
+                        </div>
+                        <div class="ui-block-d"><span
+                                style="font-weight: bold; color: rgb(153, 51, 153);">மூவர்க்கும்</span>-பெற்றோர் மனைவி
+                            மக்கள் ஆகிய மூன்று வகையினர்க்கும்
+                        </div>
+                </div><!-- /grid-b -->
+                <div class="ui-grid-d ui-responsive">
+                    <div class="ui-block-a"><span style="font-weight: bold; color: rgb(153, 51, 153);">நல்</span>-நல்ல
+                    </div>
+                    <div class="ui-block-b"><span style="font-weight: bold; color: rgb(153, 51, 153);">ஆற்றின் </span>-ஒழுக்க
+                        வழிகளில்
+                    </div>
+                    <div class="ui-block-c"><span style="font-weight: bold; color: rgb(153, 51, 153);">நின்ற துணை</span>நிலையாக
+                        இருக்கும் துணையாவான்
+                    </div>
+                    </small>
+                </div><!-- /grid-b -->
+
+
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="flat-man" data-expanded-icon="flat-cross">
+                <h3>ஆசிரியருரை</h3>
+                <div data-role="collapsible-set">
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மு.வரதராசனார் உரை</h3>
+                        <small>யான் வறியவன் என்று நினைத்துத் தீய செயல்களைச் செய்யக்கூடாது, செய்தால் மீண்டும் வறியவன் ஆகி வருந்துவான்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>பரிமேலழகர் உரை</h3>
+                        <small>இலன் என்று தீயவை செய்யற்க -யான் வறியன் என்று கருதி அது தீர்தற்பொருட்டுப் பிறர்க்குத் தீவினைகளை ஒருவன் செய்யாது ஒழிக, செய்யின் பெயர்த்தும் இலன் ஆகும் - செய்வானாயின் பெயர்த்தும் வறியன் ஆம். (அத் தீவினையால் பிறவிதோறும் இலன் ஆம் என்பதாம். அன் விகுதி முன் தனித்தன்மையினும் பின் படர்க்கை ஒருமையினும் வந்தது. தனித்தன்மை 'உளனா என் உயிரை உண்டு' (கலித்.குறிஞ்சி.22) என்பதனாலும் அறிக. மற்று - அசை நிலை. 'இலம்' என்று பாடம் ஓதுவாரும் உளர். பொருளான் வறியன் எனக் கருதித் தீயவை செய்யற்க, செய்யின், அப்பொருளானேயன்றி, நற்குண நற்செய்கைகளாலும் வறியனாம், என்று உரைப்பாரும் உளர்.)
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>மணக்குடவர் உரை</h3>
+                        <small>நல்கூர்ந்தேமென்று நினைத்துச் செல்வத்தைக் கருதி தீவினையைச் செய்யாதொழிக; செய்வானாயின் பின்பும் நல்குரவினனாவன். அது செல்வம் பயவாது.
+
+இது வறுமை தீரத் தீமை செய்யினும் பின்பும் வறியனாகுமென்றது.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>தேவநேயப் பாவாணர் உரை</h3>
+                        <small>இலன் என்று தீயவை செய்யற்க-எவனேனும் யான் பொருளில்லாதவன் என்று கருதி அதைப் பெறற் பொருட்டுப் பிறர்க்குத் தீமையானவற்றைச் செய்யாதிருக்க; செய்யின் பெயர்த்தும் இலன் ஆகும்-செய்வானாயின் மீண்டும் வறியனாவான்.
+
+தீவினையான் வந்த பொருளை விரைந்து இழந்து விடுவானாதலின் மீண்டும் வறியனாவான் என்றார். 'இலன்' இரண்டுள், முன்னது தன்மை யொருமைக் குறிப்பு வினைமுற்று; பின்னது படர்க்கையாண்பாற் குறிப்புவினையாலணையும் பெயர். 'மற்று' அசைநிலை. உம்மை பிரித்துக் கூட்டப்பட்டது.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>கலைஞர் உரை</h3>
+                        <small>வறுமையின்  காரணமாக   ஒருவன்  தீய செயல்களில் ஈடுபடக்கூடாது;
+அப்படி    ஈடுபட்டால்    மீண்டும்    அவன்    வறுமையிலேயே வாட
+வேண்டியிருக்கும்.
+                        </small>
+                    </div>
+
+                    <div data-role="collapsible" data-theme="c" data-collapsed-icon="info" data-mini="true">
+                        <h3>சாலமன் பாப்பையா உரை</h3>
+                        <small>தன் ஏழ்மையைப் போக்கப் பிறர்க்குத் தீமை செய்யாதே, செய்தால் மேலும் ஏழை ஆவாய்.</td>
+                        </small>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div data-role="collapsible" data-collapsed-icon="flat-volume" data-expanded-icon="flat-cross">
+                <h3>குறளிசை</h3>
+                <iframe src="http://www.youtube.com/embed/ZrlNX7RALFs" allowfullscreen="" frameborder="0" height="auto"
+                        width="100%"></iframe>
+
+
+            </div>
+            <div data-role="navbar" align="center">
+                <div data-role="controlgroup" data-type="horizontal">
+				<a href="#kural199" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        199</a>
+
+                    <a href="#chapter20" data-theme="d" data-icon="grid" data-iconpos="text" data-role="button">20. பயனில சொல்லாமை</a>
+                    <a href="20.html#kural201" data-icon="arrow-r" data-iconpos="right" data-theme="f" data-role="button">குறள்
+                        201</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of kural200-->
+</body>
+
+</html>
